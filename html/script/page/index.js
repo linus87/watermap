@@ -15,6 +15,7 @@ function onLoad() {
 	
 	var control = new TiandiMap.controls.DefaultControl();
 	map.addControl(control);
+	console.log(control.getContainer());
 }
 
 function displayControl() {
